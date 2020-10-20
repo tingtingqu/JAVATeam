@@ -36,6 +36,7 @@ public class Person {
 	public void setEnglish(int english) {
 	 this.english = english;
 	}
+	
 	@Override
 	public String toString() {
 	 return "nu=" + nu + ", name=" + name + ", math=" + math + ", chinese=" + chinese + ", english=" + english;

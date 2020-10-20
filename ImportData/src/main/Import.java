@@ -5,6 +5,10 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
+
 public class Import {
 
 	public static void main(String[] args) {
@@ -14,11 +18,8 @@ public class Import {
 		ArrayList<Person> list_txt=new ArrayList<Person>();
 		list_txt=readTxtFile(filepath); 
         //printArray(array);
-      System.out.println("表格数据：\n"+list_txt);//读取text中的数据，成为list
-
-
-
-
+		System.out.println("表格数据：\n"+list_txt);
+   
 }
 public static ArrayList readTxtFile(String filePath) {
 
